@@ -104,6 +104,8 @@ if isAwesome {
 } else {
 
 }
+
+let value = isAwesome ? "Awesome" : "Bad"
 //: ## Switch
 switch languageName {
 case "Swift":
@@ -119,3 +121,25 @@ guard isAwesome else {
     fatalError("Swift have to be awesome")
 }
 print("Swift is awesome")
+
+
+//: # Functions
+func add(_ firstValue: Int, to secondValue: Int = 0) -> Int {
+    firstValue + secondValue
+
+}
+
+add(5, to: 5)
+
+//add(10)
+add(10, to: 10)
+
+func loadURL() -> (code: Int, message: String) {
+    (200, "OK")
+}
+
+let result = loadURL()
+result.message
+result.0
+
+let (code, text) = loadURL()
