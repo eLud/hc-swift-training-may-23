@@ -143,3 +143,35 @@ result.message
 result.0
 
 let (code, text) = loadURL()
+
+//: # Optionnels
+let capitales = ["France": "Paris", "Canada": "Ottawa"]
+let capIrlande: Optional<String> = capitales["Irlande"]
+let capFrance: Optional<String> = capitales["France"]
+
+// Forced unwrap (!)
+
+//let unwrappedValue = capIrlande!
+//Fatal error: Unexpectedly found nil while unwrapping an Optional value
+//print(unwrappedValue)
+
+if let capIrlande = capIrlande {
+    print(capIrlande)
+}
+
+// Syntaxe plus récentes du if-let (5.7+)
+if let capIrlande {
+    print(capIrlande)
+} else {
+
+}
+
+let up: String? = capFrance?.first?.uppercased()
+
+guard let capitaleFrance = capFrance else { fatalError() }
+capitaleFrance
+
+capFrance
+guard let capFrance else { fatalError() } // Syntaxe plus récentes du guard-let (5.7+)
+
+capFrance
