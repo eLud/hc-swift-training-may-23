@@ -17,9 +17,18 @@ class PlantListViewController: UIViewController {
         super.viewDidLoad()
 
         tableView.dataSource = self
+    }
 
-        // Rajoute 2-3 plantes
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showPlantDetails" {
+            let destination = segue.destination
 
+            guard let cell = sender as? CustomTableViewCell else { return }
+            guard let indexPath = tableView.indexPath(for: cell) else { return }
+            let plant = garden.plants[indexPath.row]
+
+            destination.title = plant.name
+        }
     }
 }
 
