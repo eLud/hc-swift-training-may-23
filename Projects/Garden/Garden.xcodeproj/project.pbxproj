@@ -16,6 +16,7 @@
 		336628DC2A1CE8EA00E80B3F /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336628DB2A1CE8EA00E80B3F /* Plant.swift */; };
 		336628DE2A1CE8F500E80B3F /* Garden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336628DD2A1CE8F500E80B3F /* Garden.swift */; };
 		336628E12A1E1C6D00E80B3F /* PlantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336628E02A1E1C6D00E80B3F /* PlantListViewController.swift */; };
+		33C88AE62A1E4466009CC422 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C88AE52A1E4466009CC422 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		336628DB2A1CE8EA00E80B3F /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 		336628DD2A1CE8F500E80B3F /* Garden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garden.swift; sourceTree = "<group>"; };
 		336628E02A1E1C6D00E80B3F /* PlantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListViewController.swift; sourceTree = "<group>"; };
+		33C88AE52A1E4466009CC422 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				332425612A1CB71300EF0A5B /* AppDelegate.swift */,
 				332425632A1CB71300EF0A5B /* SceneDelegate.swift */,
+				33C88AE52A1E4466009CC422 /* CustomTableViewCell.swift */,
 				336628E22A1E1C8900E80B3F /* ViewControllers */,
 				336628DF2A1CE98C00E80B3F /* Model */,
 				332425672A1CB71300EF0A5B /* Main.storyboard */,
@@ -166,6 +169,7 @@
 				336628DE2A1CE8F500E80B3F /* Garden.swift in Sources */,
 				332425662A1CB71300EF0A5B /* ViewController.swift in Sources */,
 				336628E12A1E1C6D00E80B3F /* PlantListViewController.swift in Sources */,
+				33C88AE62A1E4466009CC422 /* CustomTableViewCell.swift in Sources */,
 				336628DC2A1CE8EA00E80B3F /* Plant.swift in Sources */,
 				332425622A1CB71300EF0A5B /* AppDelegate.swift in Sources */,
 				332425642A1CB71300EF0A5B /* SceneDelegate.swift in Sources */,
