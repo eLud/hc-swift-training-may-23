@@ -33,7 +33,17 @@ extension PlantListViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "pinkCell", for: indexPath)
 
         // Customize
-        
+        var config = cell.defaultContentConfiguration()
+        config.text = "Test"
+        config.textProperties.color = UIColor.blue
+
+        config.secondaryText = "Secondary"
+        config.secondaryTextProperties.font = UIFont.boldSystemFont(ofSize: 20)
+
+        config.image = UIImage(systemName: "leaf")
+
+        cell.contentConfiguration = config
+
         return cell
     }
 }

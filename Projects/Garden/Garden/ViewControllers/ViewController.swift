@@ -71,6 +71,7 @@ class ViewController: UIViewController {
             menu
         ])
         menuButton.showsMenuAsPrimaryAction = true
+        menuButton.changesSelectionAsPrimaryAction = true
     }
 
     // IBAction : func qui s'execute en fct de l'UI
