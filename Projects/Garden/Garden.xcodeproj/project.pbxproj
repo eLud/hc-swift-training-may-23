@@ -13,6 +13,8 @@
 		332425692A1CB71300EF0A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332425672A1CB71300EF0A5B /* Main.storyboard */; };
 		3324256B2A1CB71400EF0A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3324256A2A1CB71400EF0A5B /* Assets.xcassets */; };
 		3324256E2A1CB71400EF0A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3324256C2A1CB71400EF0A5B /* LaunchScreen.storyboard */; };
+		3338C6782A1F44610035545A /* PlantDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6772A1F44610035545A /* PlantDetailsViewController.swift */; };
+		3338C67A2A1F4D330035545A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6792A1F4D330035545A /* Constants.swift */; };
 		336628DC2A1CE8EA00E80B3F /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336628DB2A1CE8EA00E80B3F /* Plant.swift */; };
 		336628DE2A1CE8F500E80B3F /* Garden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336628DD2A1CE8F500E80B3F /* Garden.swift */; };
 		336628E12A1E1C6D00E80B3F /* PlantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336628E02A1E1C6D00E80B3F /* PlantListViewController.swift */; };
@@ -28,6 +30,8 @@
 		3324256A2A1CB71400EF0A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3324256D2A1CB71400EF0A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3324256F2A1CB71400EF0A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3338C6772A1F44610035545A /* PlantDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailsViewController.swift; sourceTree = "<group>"; };
+		3338C6792A1F4D330035545A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		336628DB2A1CE8EA00E80B3F /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 		336628DD2A1CE8F500E80B3F /* Garden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garden.swift; sourceTree = "<group>"; };
 		336628E02A1E1C6D00E80B3F /* PlantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 				3324256A2A1CB71400EF0A5B /* Assets.xcassets */,
 				3324256C2A1CB71400EF0A5B /* LaunchScreen.storyboard */,
 				3324256F2A1CB71400EF0A5B /* Info.plist */,
+				3338C6792A1F4D330035545A /* Constants.swift */,
 			);
 			path = Garden;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 			children = (
 				332425652A1CB71300EF0A5B /* ViewController.swift */,
 				336628E02A1E1C6D00E80B3F /* PlantListViewController.swift */,
+				3338C6772A1F44610035545A /* PlantDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -172,7 +178,9 @@
 				33C88AE62A1E4466009CC422 /* CustomTableViewCell.swift in Sources */,
 				336628DC2A1CE8EA00E80B3F /* Plant.swift in Sources */,
 				332425622A1CB71300EF0A5B /* AppDelegate.swift in Sources */,
+				3338C6782A1F44610035545A /* PlantDetailsViewController.swift in Sources */,
 				332425642A1CB71300EF0A5B /* SceneDelegate.swift in Sources */,
+				3338C67A2A1F4D330035545A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

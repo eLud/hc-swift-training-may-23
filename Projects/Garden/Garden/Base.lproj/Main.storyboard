@@ -58,7 +58,7 @@
             </objects>
             <point key="canvasLocation" x="234.35114503816794" y="74.647887323943664"/>
         </scene>
-        <!--Item-->
+        <!--Shop-->
         <scene sceneID="v5x-mb-s3p">
             <objects>
                 <viewController id="iZl-W3-CJ4" sceneMemberID="viewController">
@@ -80,16 +80,16 @@
                             <constraint firstItem="K8V-dz-oLy" firstAttribute="centerY" secondItem="Xrk-0T-SRO" secondAttribute="centerY" id="xfq-R8-3mH"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="WxA-tK-Nug"/>
+                    <tabBarItem key="tabBarItem" title="Shop" image="pencil.circle" catalog="system" badgeValue="1" id="WxA-tK-Nug"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1fc-qg-O0L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-692" y="835"/>
         </scene>
-        <!--View Controller-->
+        <!--Plant Details View Controller-->
         <scene sceneID="VyW-wY-fyg">
             <objects>
-                <viewController id="9vu-9a-KKC" sceneMemberID="viewController">
+                <viewController id="9vu-9a-KKC" customClass="PlantDetailsViewController" customModule="Garden" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dOP-gK-Mcy">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -109,6 +109,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="X0t-Aw-Akr"/>
+                    <connections>
+                        <outlet property="plantNameLabel" destination="cPH-6v-KFC" id="gGs-0b-Fwy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v9a-T9-6HC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -254,11 +257,11 @@
             </objects>
             <point key="canvasLocation" x="1138" y="-592"/>
         </scene>
-        <!--Item-->
+        <!--List-->
         <scene sceneID="6sg-v9-NMr">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1as-jB-OQW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="fs9-09-UTw"/>
+                    <tabBarItem key="tabBarItem" title="List" image="list.bullet.clipboard" catalog="system" id="fs9-09-UTw"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="obb-uX-yWg">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -279,6 +282,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="bBg-Q8-1XF" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="r8M-cl-gJG">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -293,6 +297,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="list.bullet.clipboard" catalog="system" width="103" height="128"/>
+        <image name="pencil.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -17,17 +17,27 @@ class PlantListViewController: UIViewController {
         super.viewDidLoad()
 
         tableView.dataSource = self
+
+        let notCenter = NotificationCenter.default
+        notCenter.addObserver(forName: Notification.Name(Constants.Notifications.modelUpdated), object: garden, queue: OperationQueue.main) { _ in
+            self.tableView.reloadData()
+        }
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showPlantDetails" {
-            let destination = segue.destination
-
-            guard let cell = sender as? CustomTableViewCell else { return }
+            guard let destination = segue.destination as? PlantDetailsViewController else { return }
+            guard let cell = sender as? UITableViewCell else { return }
             guard let indexPath = tableView.indexPath(for: cell) else { return }
+            
             let plant = garden.plants[indexPath.row]
+            destination.plant = plant
 
-            destination.title = plant.name
+            // Ne jamais accéder aux outlets de la destination dans un prepare for segue
+//            destination.plantNameLabel.text = "Toto"
+        } else if segue.identifier == "showForm" {
+            guard let destination = segue.destination as? ViewController else { return }
+            destination.garden = garden
         }
     }
 }

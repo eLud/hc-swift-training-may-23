@@ -22,6 +22,8 @@ class ViewController: UIViewController {
 
     var selectedChoice: String?
 
+    var garden: Garden?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -89,6 +91,20 @@ class ViewController: UIViewController {
         let climate = Climate(rawValue: index)
 
         let plant = Plant(name: name, price: price, numberOfSeeds: Int(numberOfSeedsStepper.value), climate: climate)
+        garden?.add(newPlant: plant)
+
+        // Dismiss la vue modale
+        dismiss(animated: true)
+
+//        Affichage modal
+//        present(, animated: )
+
+//        Navigation hiérarchique
+//        navigationController?.pushViewController(, animated: )
+
+//        Push si possible sinon modal
+//        show(, sender: )
     }
 }
 
+	
