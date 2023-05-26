@@ -111,6 +111,8 @@
 			dependencies = (
 			);
 			name = GardenUI;
+			packageProductDependencies = (
+			);
 			productName = GardenUI;
 			productReference = 3338C6A52A1F5F500035545A /* GardenUI.app */;
 			productType = "com.apple.product-type.application";
@@ -140,6 +142,8 @@
 				Base,
 			);
 			mainGroup = 3338C69C2A1F5F500035545A;
+			packageReferences = (
+			);
 			productRefGroup = 3338C6A62A1F5F500035545A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
