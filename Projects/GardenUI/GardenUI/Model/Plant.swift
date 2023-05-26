@@ -15,11 +15,11 @@ enum Climate: Int, CaseIterable, Identifiable, Codable {
     func title() -> String {
         switch self {
         case .sun:
-            return "Sun"
+            return NSLocalizedString("Sun", comment: "")
         case .shadow:
-            return "Shadow"
+            return NSLocalizedString("Shadow", comment: "")
         case .mixed:
-            return "Mixed"
+            return NSLocalizedString("Mixed", comment: "")
         }
     }
 

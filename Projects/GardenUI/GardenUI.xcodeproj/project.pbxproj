@@ -17,6 +17,7 @@
 		3338C6BF2A1FB32B0035545A /* PlantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6BE2A1FB32B0035545A /* PlantDetailsView.swift */; };
 		3338C6C12A1FB3BA0035545A /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6C02A1FB3BA0035545A /* ShopView.swift */; };
 		3338C6C32A209D610035545A /* CustomSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6C22A209D610035545A /* CustomSwitchView.swift */; };
+		3338C72F2A21001C0035545A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3338C72D2A21001C0035545A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3338C6BE2A1FB32B0035545A /* PlantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailsView.swift; sourceTree = "<group>"; };
 		3338C6C02A1FB3BA0035545A /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 		3338C6C22A209D610035545A /* CustomSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitchView.swift; sourceTree = "<group>"; };
+		3338C72E2A21001C0035545A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		3338C6A72A1F5F500035545A /* GardenUI */ = {
 			isa = PBXGroup;
 			children = (
+				3338C72D2A21001C0035545A /* Localizable.strings */,
 				3338C6A82A1F5F500035545A /* GardenUIApp.swift */,
 				3338C6AA2A1F5F500035545A /* ContentView.swift */,
 				3338C6C22A209D610035545A /* CustomSwitchView.swift */,
@@ -138,8 +141,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				fr,
 				Base,
+				fr,
 			);
 			mainGroup = 3338C69C2A1F5F500035545A;
 			packageReferences = (
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3338C6B12A1F5F510035545A /* Preview Assets.xcassets in Resources */,
+				3338C72F2A21001C0035545A /* Localizable.strings in Resources */,
 				3338C6AD2A1F5F510035545A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +186,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3338C72D2A21001C0035545A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3338C72E2A21001C0035545A /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3338C6B22A1F5F510035545A /* Debug */ = {

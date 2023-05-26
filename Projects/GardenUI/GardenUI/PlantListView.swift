@@ -69,7 +69,7 @@ struct PlantCell: View {
                 .foregroundColor(.blue)
             VStack(alignment: .leading) {
                 Text(plant.name)
-                Text(plant.climate?.title() ?? "No climate value")
+                Text(plant.climate?.title() ?? NSLocalizedString("No climate value", comment: ""))
                     .font(.caption)
             }
         }

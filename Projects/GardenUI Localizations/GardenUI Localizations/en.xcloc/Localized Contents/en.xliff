@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="GardenUI/en.lproj/GardenUI-InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>GardenUI</source>
+        <target>GardenUI</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="GardenUI/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
+    </header>
+    <body>
+      <trans-unit id="%lld" xml:space="preserve">
+        <source>%lld</source>
+        <target>%lld</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add" xml:space="preserve">
+        <source>Add</source>
+        <target>Add</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Call URL" xml:space="preserve">
+        <source>Call URL</source>
+        <target>Call URL</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Climate" xml:space="preserve">
+        <source>Climate</source>
+        <target>Climate</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Increment" xml:space="preserve">
+        <source>Increment</source>
+        <target>Increment</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="List" xml:space="preserve">
+        <source>List</source>
+        <target>List</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Mixed" xml:space="preserve">
+        <source>Mixed</source>
+        <target>Mixed</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Name" xml:space="preserve">
+        <source>Name</source>
+        <target>Name</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="No climate value" xml:space="preserve">
+        <source>No climate value</source>
+        <target>No climate value</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Number of seeds" xml:space="preserve">
+        <source>Number of seeds</source>
+        <target>Number of seeds</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Price" xml:space="preserve">
+        <source>Price</source>
+        <target>Price</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Save" xml:space="preserve">
+        <source>Save</source>
+        <target>Save</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Shadow" xml:space="preserve">
+        <source>Shadow</source>
+        <target>Shadow</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Shop" xml:space="preserve">
+        <source>Shop</source>
+        <target>Shop</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Sun" xml:space="preserve">
+        <source>Sun</source>
+        <target>Sun</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="This is the climate the plant likes" xml:space="preserve">
+        <source>This is the climate the plant likes</source>
+        <target>This is the climate the plant likes</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

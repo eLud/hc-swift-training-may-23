@@ -28,7 +28,6 @@ struct ShopView: View {
         }
         .task {
             await networkRequest()
-
         }
     }
 
