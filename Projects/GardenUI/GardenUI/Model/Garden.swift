@@ -21,6 +21,7 @@ class Garden: ObservableObject {
         // Manual trigger of the publisher
 //        objectWillChange.send()
         plants.append(newPlant)
+        saveGarden()
     }
 
     func remove(plant: Plant) -> Plant? {
@@ -35,5 +36,27 @@ class Garden: ObservableObject {
 
     func move(at offsets: IndexSet, offset: Int) {
         plants.move(fromOffsets: offsets, toOffset: offset)
+    }
+
+    private func saveGarden() {
+        let encoder = JSONEncoder()
+        // Do-Catch
+        do {
+            let data = try encoder.encode(plants)
+            guard let jsonString = String(data: data, encoding: .utf8) else { return }
+            print(jsonString)
+            decodePlantArray(from: data)
+        } catch {
+            print(error)
+        }
+
+//        Transforme l'erreur en optionnel
+//        let data = try? encoder.encode(plants)
+    }
+
+    private func decodePlantArray(from data: Data) {
+        let decoder = JSONDecoder()
+        guard let plantArray = try? decoder.decode([Plant].self, from: data) else { return }
+        print(plantArray)
     }
 }

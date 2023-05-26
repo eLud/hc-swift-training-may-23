@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Climate: Int, CaseIterable, Identifiable {
+enum Climate: Int, CaseIterable, Identifiable, Codable {
     case sun
     case shadow
     case mixed
@@ -28,9 +28,9 @@ enum Climate: Int, CaseIterable, Identifiable {
     }
 }
 
-struct Plant: Hashable, Identifiable {
+struct Plant: Hashable, Identifiable, Codable {
 
-    enum GerminationStatus: Hashable {
+    enum GerminationStatus: Hashable, Codable {
         case notGerminated
         case germinated(at: Date) // Associated value
         case grownUp
@@ -43,7 +43,7 @@ struct Plant: Hashable, Identifiable {
         self.climate = climate
 
         plantationDate = .now
-        germinationStatus = .notGerminated
+        germinationStatus = .germinated(at: .now)
     }
 
     let name: String
@@ -55,7 +55,7 @@ struct Plant: Hashable, Identifiable {
     var price: Double
     var numberOfSeeds: Int
 
-    let id: UUID = UUID()
+    var id: UUID = UUID()
 
     mutating func setGerminationDate() {
         guard germinationStatus == .notGerminated else { return }

@@ -15,7 +15,7 @@ struct GardenUIApp: App {
     var body: some Scene {
         WindowGroup {
             TabView {
-                NavigationView {
+                NavigationStack {
                     PlantListView(garden: garden)
                 }
                 .tabItem {
@@ -27,8 +27,8 @@ struct GardenUIApp: App {
                         Text("Shop")
                         Image(systemName: "cart")
                     }
+                    .environmentObject(garden)
             }
         }
     }
-
 }

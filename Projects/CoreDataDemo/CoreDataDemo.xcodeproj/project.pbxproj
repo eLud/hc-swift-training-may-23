@@ -7,35 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3338C6A92A1F5F500035545A /* GardenUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6A82A1F5F500035545A /* GardenUIApp.swift */; };
-		3338C6AB2A1F5F500035545A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6AA2A1F5F500035545A /* ContentView.swift */; };
-		3338C6AD2A1F5F510035545A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3338C6AC2A1F5F510035545A /* Assets.xcassets */; };
-		3338C6B12A1F5F510035545A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3338C6B02A1F5F510035545A /* Preview Assets.xcassets */; };
-		3338C6B82A1F8E840035545A /* Garden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6B72A1F8E840035545A /* Garden.swift */; };
-		3338C6BA2A1F8E890035545A /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6B92A1F8E890035545A /* Plant.swift */; };
-		3338C6BD2A1FA5D00035545A /* PlantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6BC2A1FA5D00035545A /* PlantListView.swift */; };
-		3338C6BF2A1FB32B0035545A /* PlantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6BE2A1FB32B0035545A /* PlantDetailsView.swift */; };
-		3338C6C12A1FB3BA0035545A /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6C02A1FB3BA0035545A /* ShopView.swift */; };
-		3338C6C32A209D610035545A /* CustomSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6C22A209D610035545A /* CustomSwitchView.swift */; };
+		3338C6D12A20BF100035545A /* CoreDataDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6D02A20BF100035545A /* CoreDataDemoApp.swift */; };
+		3338C6D32A20BF100035545A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6D22A20BF100035545A /* Persistence.swift */; };
+		3338C6D62A20BF100035545A /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6D42A20BF100035545A /* CoreDataDemo.xcdatamodeld */; };
+		3338C6D82A20BF100035545A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6D72A20BF100035545A /* ContentView.swift */; };
+		3338C6DA2A20BF110035545A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3338C6D92A20BF110035545A /* Assets.xcassets */; };
+		3338C6DE2A20BF110035545A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3338C6DD2A20BF110035545A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3338C6A52A1F5F500035545A /* GardenUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3338C6A82A1F5F500035545A /* GardenUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenUIApp.swift; sourceTree = "<group>"; };
-		3338C6AA2A1F5F500035545A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3338C6AC2A1F5F510035545A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3338C6AE2A1F5F510035545A /* GardenUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GardenUI.entitlements; sourceTree = "<group>"; };
-		3338C6B02A1F5F510035545A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3338C6B72A1F8E840035545A /* Garden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garden.swift; sourceTree = "<group>"; };
-		3338C6B92A1F8E890035545A /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
-		3338C6BC2A1FA5D00035545A /* PlantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListView.swift; sourceTree = "<group>"; };
-		3338C6BE2A1FB32B0035545A /* PlantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailsView.swift; sourceTree = "<group>"; };
-		3338C6C02A1FB3BA0035545A /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
-		3338C6C22A209D610035545A /* CustomSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitchView.swift; sourceTree = "<group>"; };
+		3338C6CD2A20BF100035545A /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3338C6D02A20BF100035545A /* CoreDataDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoApp.swift; sourceTree = "<group>"; };
+		3338C6D22A20BF100035545A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3338C6D52A20BF100035545A /* CoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
+		3338C6D72A20BF100035545A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3338C6D92A20BF110035545A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3338C6DB2A20BF110035545A /* CoreDataDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoreDataDemo.entitlements; sourceTree = "<group>"; };
+		3338C6DD2A20BF110035545A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3338C6A22A1F5F500035545A /* Frameworks */ = {
+		3338C6CA2A20BF100035545A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,142 +37,125 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3338C69C2A1F5F500035545A = {
+		3338C6C42A20BF100035545A = {
 			isa = PBXGroup;
 			children = (
-				3338C6A72A1F5F500035545A /* GardenUI */,
-				3338C6A62A1F5F500035545A /* Products */,
+				3338C6CF2A20BF100035545A /* CoreDataDemo */,
+				3338C6CE2A20BF100035545A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3338C6A62A1F5F500035545A /* Products */ = {
+		3338C6CE2A20BF100035545A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3338C6A52A1F5F500035545A /* GardenUI.app */,
+				3338C6CD2A20BF100035545A /* CoreDataDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3338C6A72A1F5F500035545A /* GardenUI */ = {
+		3338C6CF2A20BF100035545A /* CoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3338C6A82A1F5F500035545A /* GardenUIApp.swift */,
-				3338C6AA2A1F5F500035545A /* ContentView.swift */,
-				3338C6C22A209D610035545A /* CustomSwitchView.swift */,
-				3338C6BC2A1FA5D00035545A /* PlantListView.swift */,
-				3338C6BE2A1FB32B0035545A /* PlantDetailsView.swift */,
-				3338C6C02A1FB3BA0035545A /* ShopView.swift */,
-				3338C6BB2A1F8EB90035545A /* Model */,
-				3338C6AC2A1F5F510035545A /* Assets.xcassets */,
-				3338C6AE2A1F5F510035545A /* GardenUI.entitlements */,
-				3338C6AF2A1F5F510035545A /* Preview Content */,
+				3338C6D02A20BF100035545A /* CoreDataDemoApp.swift */,
+				3338C6D22A20BF100035545A /* Persistence.swift */,
+				3338C6D72A20BF100035545A /* ContentView.swift */,
+				3338C6D92A20BF110035545A /* Assets.xcassets */,
+				3338C6DB2A20BF110035545A /* CoreDataDemo.entitlements */,
+				3338C6D42A20BF100035545A /* CoreDataDemo.xcdatamodeld */,
+				3338C6DC2A20BF110035545A /* Preview Content */,
 			);
-			path = GardenUI;
+			path = CoreDataDemo;
 			sourceTree = "<group>";
 		};
-		3338C6AF2A1F5F510035545A /* Preview Content */ = {
+		3338C6DC2A20BF110035545A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3338C6B02A1F5F510035545A /* Preview Assets.xcassets */,
+				3338C6DD2A20BF110035545A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		3338C6BB2A1F8EB90035545A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				3338C6B72A1F8E840035545A /* Garden.swift */,
-				3338C6B92A1F8E890035545A /* Plant.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3338C6A42A1F5F500035545A /* GardenUI */ = {
+		3338C6CC2A20BF100035545A /* CoreDataDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3338C6B42A1F5F510035545A /* Build configuration list for PBXNativeTarget "GardenUI" */;
+			buildConfigurationList = 3338C6E12A20BF110035545A /* Build configuration list for PBXNativeTarget "CoreDataDemo" */;
 			buildPhases = (
-				3338C6A12A1F5F500035545A /* Sources */,
-				3338C6A22A1F5F500035545A /* Frameworks */,
-				3338C6A32A1F5F500035545A /* Resources */,
+				3338C6C92A20BF100035545A /* Sources */,
+				3338C6CA2A20BF100035545A /* Frameworks */,
+				3338C6CB2A20BF100035545A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GardenUI;
-			productName = GardenUI;
-			productReference = 3338C6A52A1F5F500035545A /* GardenUI.app */;
+			name = CoreDataDemo;
+			productName = CoreDataDemo;
+			productReference = 3338C6CD2A20BF100035545A /* CoreDataDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3338C69D2A1F5F500035545A /* Project object */ = {
+		3338C6C52A20BF100035545A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					3338C6A42A1F5F500035545A = {
+					3338C6CC2A20BF100035545A = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 3338C6A02A1F5F500035545A /* Build configuration list for PBXProject "GardenUI" */;
+			buildConfigurationList = 3338C6C82A20BF100035545A /* Build configuration list for PBXProject "CoreDataDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				fr,
 				Base,
 			);
-			mainGroup = 3338C69C2A1F5F500035545A;
-			productRefGroup = 3338C6A62A1F5F500035545A /* Products */;
+			mainGroup = 3338C6C42A20BF100035545A;
+			productRefGroup = 3338C6CE2A20BF100035545A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3338C6A42A1F5F500035545A /* GardenUI */,
+				3338C6CC2A20BF100035545A /* CoreDataDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3338C6A32A1F5F500035545A /* Resources */ = {
+		3338C6CB2A20BF100035545A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3338C6B12A1F5F510035545A /* Preview Assets.xcassets in Resources */,
-				3338C6AD2A1F5F510035545A /* Assets.xcassets in Resources */,
+				3338C6DE2A20BF110035545A /* Preview Assets.xcassets in Resources */,
+				3338C6DA2A20BF110035545A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3338C6A12A1F5F500035545A /* Sources */ = {
+		3338C6C92A20BF100035545A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3338C6B82A1F8E840035545A /* Garden.swift in Sources */,
-				3338C6C32A209D610035545A /* CustomSwitchView.swift in Sources */,
-				3338C6BA2A1F8E890035545A /* Plant.swift in Sources */,
-				3338C6C12A1FB3BA0035545A /* ShopView.swift in Sources */,
-				3338C6BD2A1FA5D00035545A /* PlantListView.swift in Sources */,
-				3338C6AB2A1F5F500035545A /* ContentView.swift in Sources */,
-				3338C6A92A1F5F500035545A /* GardenUIApp.swift in Sources */,
-				3338C6BF2A1FB32B0035545A /* PlantDetailsView.swift in Sources */,
+				3338C6D12A20BF100035545A /* CoreDataDemoApp.swift in Sources */,
+				3338C6D62A20BF100035545A /* CoreDataDemo.xcdatamodeld in Sources */,
+				3338C6D82A20BF100035545A /* ContentView.swift in Sources */,
+				3338C6D32A20BF100035545A /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3338C6B22A1F5F510035545A /* Debug */ = {
+		3338C6DF2A20BF110035545A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		3338C6B32A1F5F510035545A /* Release */ = {
+		3338C6E02A20BF110035545A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,15 +264,15 @@
 			};
 			name = Release;
 		};
-		3338C6B52A1F5F510035545A /* Debug */ = {
+		3338C6E22A20BF110035545A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GardenUI/GardenUI.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CoreDataDemo/CoreDataDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GardenUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoreDataDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = A7SGM6JEMA;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -317,7 +292,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.GardenUI;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.CoreDataDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -327,15 +302,15 @@
 			};
 			name = Debug;
 		};
-		3338C6B62A1F5F510035545A /* Release */ = {
+		3338C6E32A20BF110035545A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GardenUI/GardenUI.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CoreDataDemo/CoreDataDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GardenUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoreDataDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = A7SGM6JEMA;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -355,7 +330,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.GardenUI;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.CoreDataDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -368,25 +343,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3338C6A02A1F5F500035545A /* Build configuration list for PBXProject "GardenUI" */ = {
+		3338C6C82A20BF100035545A /* Build configuration list for PBXProject "CoreDataDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3338C6B22A1F5F510035545A /* Debug */,
-				3338C6B32A1F5F510035545A /* Release */,
+				3338C6DF2A20BF110035545A /* Debug */,
+				3338C6E02A20BF110035545A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3338C6B42A1F5F510035545A /* Build configuration list for PBXNativeTarget "GardenUI" */ = {
+		3338C6E12A20BF110035545A /* Build configuration list for PBXNativeTarget "CoreDataDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3338C6B52A1F5F510035545A /* Debug */,
-				3338C6B62A1F5F510035545A /* Release */,
+				3338C6E22A20BF110035545A /* Debug */,
+				3338C6E32A20BF110035545A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3338C6D42A20BF100035545A /* CoreDataDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3338C6D52A20BF100035545A /* CoreDataDemo.xcdatamodel */,
+			);
+			currentVersion = 3338C6D52A20BF100035545A /* CoreDataDemo.xcdatamodel */;
+			path = CoreDataDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 3338C69D2A1F5F500035545A /* Project object */;
+	rootObject = 3338C6C52A20BF100035545A /* Project object */;
 }

@@ -9,14 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
 
-    @State private var name: String = ""
+    @AppStorage("lastName") private var name: String = ""
+
     @State private var price: Double = 0
     @State private var climate: Climate = .shadow
     @State private var numberOfSeeds = 1
 
-    @State private var aBool = true
+    @State private var showDetails = false
 
     @ObservedObject var garden: Garden
+
+    @Environment(\.dismiss) var dismiss: DismissAction
 
     let currencyFormatter: NumberFormatter = {
         let format = NumberFormatter()
@@ -37,8 +40,11 @@ struct ContentView: View {
             Section {
                 Button("Save", action: save)
             }
-            DemoBind(value: $numberOfSeeds)
-            Text("\(garden.plants.count)")
+            CustomSwitchView(isOn: $showDetails, symbolName: "firewall")
+            if showDetails {
+                DemoBind(value: $numberOfSeeds)
+                Text("\(garden.plants.count)")
+            }
         }
         .padding()
     }
@@ -50,6 +56,7 @@ struct ContentView: View {
                           numberOfSeeds: numberOfSeeds,
                           climate: climate)
         garden.add(newPlant: plant)
+        dismiss()
     }
 
     private var pickerSection: some View {

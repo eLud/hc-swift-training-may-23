@@ -45,6 +45,7 @@ struct PlantListView: View {
         }
         .sheet(isPresented: $showForm) {
             ContentView(garden: garden)
+                .presentationDetents([.medium, .large])
         }
     }
 }

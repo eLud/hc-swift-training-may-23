@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct ShopView: View {
+
+    @EnvironmentObject var garden: Garden
+    @AppStorage("lastName") private var name: String = ""
+
     var body: some View {
-        Text("Shop")
+        VStack {
+            Text("Shop")
+            Text(garden.name)
+            Text(name)
+        }
+
     }
 }
 
