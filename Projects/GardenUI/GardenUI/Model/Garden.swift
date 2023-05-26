@@ -59,4 +59,25 @@ class Garden: ObservableObject {
         guard let plantArray = try? decoder.decode([Plant].self, from: data) else { return }
         print(plantArray)
     }
+
+    required init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+
+        plants = try container.decode([Plant].self, forKey: .plants)
+        name = try container.decode(String.self, forKey: .name)
+    }
+}
+
+extension Garden: Codable {
+
+    enum CodingKeys: String, CodingKey {
+        case plants
+        case name
+    }
+
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(plants, forKey: .plants)
+        try container.encode(name, forKey: .name)
+    }
 }
