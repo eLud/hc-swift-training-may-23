@@ -28,4 +28,12 @@ class Garden: ObservableObject {
         let removed = plants.remove(at: index)
         return removed
     }
+
+    func remove(at offsets: IndexSet) {
+        plants.remove(atOffsets: offsets)
+    }
+
+    func move(at offsets: IndexSet, offset: Int) {
+        plants.move(fromOffsets: offsets, toOffset: offset)
+    }
 }

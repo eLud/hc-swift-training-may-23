@@ -28,7 +28,7 @@ enum Climate: Int, CaseIterable, Identifiable {
     }
 }
 
-struct Plant: Hashable {
+struct Plant: Hashable, Identifiable {
 
     enum GerminationStatus: Hashable {
         case notGerminated
@@ -54,6 +54,8 @@ struct Plant: Hashable {
 
     var price: Double
     var numberOfSeeds: Int
+
+    let id: UUID = UUID()
 
     mutating func setGerminationDate() {
         guard germinationStatus == .notGerminated else { return }

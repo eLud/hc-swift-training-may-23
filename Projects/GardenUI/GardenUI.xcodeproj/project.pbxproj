@@ -13,6 +13,9 @@
 		3338C6B12A1F5F510035545A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3338C6B02A1F5F510035545A /* Preview Assets.xcassets */; };
 		3338C6B82A1F8E840035545A /* Garden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6B72A1F8E840035545A /* Garden.swift */; };
 		3338C6BA2A1F8E890035545A /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6B92A1F8E890035545A /* Plant.swift */; };
+		3338C6BD2A1FA5D00035545A /* PlantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6BC2A1FA5D00035545A /* PlantListView.swift */; };
+		3338C6BF2A1FB32B0035545A /* PlantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6BE2A1FB32B0035545A /* PlantDetailsView.swift */; };
+		3338C6C12A1FB3BA0035545A /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3338C6C02A1FB3BA0035545A /* ShopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3338C6B02A1F5F510035545A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3338C6B72A1F8E840035545A /* Garden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garden.swift; sourceTree = "<group>"; };
 		3338C6B92A1F8E890035545A /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		3338C6BC2A1FA5D00035545A /* PlantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListView.swift; sourceTree = "<group>"; };
+		3338C6BE2A1FB32B0035545A /* PlantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailsView.swift; sourceTree = "<group>"; };
+		3338C6C02A1FB3BA0035545A /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				3338C6A82A1F5F500035545A /* GardenUIApp.swift */,
 				3338C6AA2A1F5F500035545A /* ContentView.swift */,
+				3338C6BC2A1FA5D00035545A /* PlantListView.swift */,
+				3338C6BE2A1FB32B0035545A /* PlantDetailsView.swift */,
+				3338C6C02A1FB3BA0035545A /* ShopView.swift */,
 				3338C6BB2A1F8EB90035545A /* Model */,
 				3338C6AC2A1F5F510035545A /* Assets.xcassets */,
 				3338C6AE2A1F5F510035545A /* GardenUI.entitlements */,
@@ -156,8 +165,11 @@
 			files = (
 				3338C6B82A1F8E840035545A /* Garden.swift in Sources */,
 				3338C6BA2A1F8E890035545A /* Plant.swift in Sources */,
+				3338C6C12A1FB3BA0035545A /* ShopView.swift in Sources */,
+				3338C6BD2A1FA5D00035545A /* PlantListView.swift in Sources */,
 				3338C6AB2A1F5F500035545A /* ContentView.swift in Sources */,
 				3338C6A92A1F5F500035545A /* GardenUIApp.swift in Sources */,
+				3338C6BF2A1FB32B0035545A /* PlantDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@ struct ContentView: View {
 
     @State private var aBool = true
 
-    @StateObject var garden = Garden(name: "Potager")
+    @ObservedObject var garden: Garden
 
     let currencyFormatter: NumberFormatter = {
         let format = NumberFormatter()
@@ -40,6 +40,7 @@ struct ContentView: View {
             DemoBind(value: $numberOfSeeds)
             Text("\(garden.plants.count)")
         }
+        .padding()
     }
 
     private func save() {
@@ -49,8 +50,6 @@ struct ContentView: View {
                           numberOfSeeds: numberOfSeeds,
                           climate: climate)
         garden.add(newPlant: plant)
-
-        print(garden.plants)
     }
 
     private var pickerSection: some View {
@@ -82,6 +81,6 @@ struct DemoBind: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(garden: Garden(name: "Potager"))
     }
 }

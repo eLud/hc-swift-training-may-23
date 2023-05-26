@@ -10,9 +10,24 @@ import SwiftUI
 @main
 struct GardenUIApp: App {
 
+    @StateObject private var garden: Garden = Garden(name: "Potager")
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                NavigationView {
+                    PlantListView(garden: garden)
+                }
+                .tabItem {
+                    Text("List")
+                    Image(systemName: "list.clipboard")
+                }
+                ShopView()
+                    .tabItem {
+                        Text("Shop")
+                        Image(systemName: "cart")
+                    }
+            }
         }
     }
 
